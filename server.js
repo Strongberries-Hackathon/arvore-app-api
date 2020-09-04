@@ -4,6 +4,7 @@
  * Module dependencies.
  */
 
+
 const app = require('./app');
 const debug = require('debug')('arvore-app-api:server');
 const http = require('http');
