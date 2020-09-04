@@ -28,8 +28,10 @@ jobs:
       - name: Install
         run: yarn
         
-      - name: Start
-        run: yarn start
+      - name: docker build
+        uses: actions/docker/cli@master
+        with:
+          args: build -t app .
         
       - name: Test
         run: curl --location --request GET 'localhost:3000/cover'
