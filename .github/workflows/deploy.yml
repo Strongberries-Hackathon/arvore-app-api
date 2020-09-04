@@ -33,8 +33,17 @@ jobs:
         with:
           node-version: ${{ matrix.node_version }}
 
-      - name: npm install, build and test
-        run: |
-          npm install
-          npm start
-          curl --location --request GET 'localhost:3000/cover'
+      # - name: npm install, build and test
+      #   run: |
+      #     npm install
+      #     npm start
+      #     curl --location --request GET 'localhost:3000/cover'
+
+      - name: install
+        run: npm install
+
+      - name: build
+        run: npm start
+
+      - name: test
+        run: curl --location --request GET 'localhost:3000/cover'
