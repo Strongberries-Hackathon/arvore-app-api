@@ -14,42 +14,52 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
-    name: Test on node ${{ matrix.node_version }} and ${{ matrix.os }}
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        node_version: ['12']
-        os: [ubuntu-latest]
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    runs-on: ubuntu-latest
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - name: Use Node.js ${{ matrix.node_version }}
-        uses: actions/setup-node@v1
+      - uses: akhileshns/heroku-deploy@v3.4.6 # This is the action
         with:
-          node-version: ${{ matrix.node_version }}
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "arvore-app-api" #Must be unique in Heroku
+          heroku_email: "truestrongberries@gmail.com"
+#         env:
+#           HD_FIREBASE_API_KEY: ${{secrets.FIREBASE_API_KEY}}
+#           HD_RANDOM_DATA: "Hello"
+# jobs:
+  # This workflow contains a single job called "build"
+#   build:
+#     # The type of runner that the job will run on
+#     name: Test on node ${{ matrix.node_version }} and ${{ matrix.os }}
+#     runs-on: ${{ matrix.os }}
+#     strategy:
+#       matrix:
+#         node_version: ['12']
+#         os: [ubuntu-latest]
 
-      - uses: actions/checkout@v2
-      - name: Deploy branch
-        run: |
-          export branch=$(git rev-parse --abbrev-ref HEAD)
-          echo $branch
-          git push heroku $branch:development
+#     # Steps represent a sequence of tasks that will be executed as part of the job
+#     steps:
+#       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+#       - uses: actions/checkout@v2
+#       - name: Use Node.js ${{ matrix.node_version }}
+#         uses: actions/setup-node@v1
+#         with:
+#           node-version: ${{ matrix.node_version }}
+
+#       - uses: actions/checkout@v2
+#       - name: Deploy branch
+#         run: |
+#           export branch=$(git rev-parse --abbrev-ref HEAD)
+#           echo $branch
+#           git push heroku $branch:development
                 
-      # - name:  Docker build
-      #   # You may pin to the exact commit or the version.
-      #   # uses: docker/build-push-action@92e71463491f2d026a477188b8ad3a0fdd9d672c
-      #   uses: docker/build-push-action@v1.1.0
-      #   with:
-      #     tags: app
-          # Automatically tags the built image with the git reference as per the readme
+#       # - name:  Docker build
+#       #   # You may pin to the exact commit or the version.
+#       #   # uses: docker/build-push-action@92e71463491f2d026a477188b8ad3a0fdd9d672c
+#       #   uses: docker/build-push-action@v1.1.0
+#       #   with:
+#       #     tags: app
+#           # Automatically tags the built image with the git reference as per the readme
   
-      - name: Install
-        run: npm install
-
-      # - name: test
-      #   run: curl --location --request GET 'localhost:3000/cover'
+#       - name: Install
+#         run: npm install
