@@ -36,6 +36,7 @@ jobs:
       - name: Deploy branch
         run: |
           export branch=$(git rev-parse --abbrev-ref HEAD)
+          echo $branch
           git push heroku $branch:development
                 
       # - name:  Docker build
