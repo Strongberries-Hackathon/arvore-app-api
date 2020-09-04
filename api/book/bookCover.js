@@ -11,7 +11,7 @@ const _fetchCover = () => {
     title: "The Friendly Creeper Diaries (Book 1): The Creeper Village",
     sutitle: "An Unofficial Minecraft Diary Book for Kids Ages 9 - 12 (Preteen)",
     author: "Mark Mulle",
-    coverPicture: "/images/bookCover.jpeg",
+    coverPicture: "/images/book/cover.jpeg",
   };
 };
 
