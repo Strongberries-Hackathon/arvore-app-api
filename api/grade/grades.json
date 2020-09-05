@@ -1,0 +1,8 @@
+{
+    "grade_1": {
+        "students": ["Pedro", "Julia", "Maria"] 
+    },
+    "grade_2": {
+        "students": ["Carol", "Paula", "Camila"] 
+    }
+}
