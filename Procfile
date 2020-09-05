@@ -1,2 +1,2 @@
-worker:  yarn db:prod
+web:  yarn db:prod
 web: node server.js
