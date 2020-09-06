@@ -10,4 +10,3 @@ POST /activity/upload
 drop table activity;
 drop table knex_migrations;
 drop table knex_migrations_lock;
-drop table products

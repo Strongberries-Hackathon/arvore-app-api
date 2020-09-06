@@ -8,7 +8,7 @@ exports.up = (knex) => {
        table.string('studant_id', 50).notNullable();
        table.string('type', 255).notNullable();
        table.string('status', 255);
-       table.string('uploads', 255)
+       table.specificType('uploads', 'text[][]')
       })
 };
 

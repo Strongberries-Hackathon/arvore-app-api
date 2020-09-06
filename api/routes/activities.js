@@ -7,8 +7,17 @@ const { uploadHelper } = require("../utils/fileUpload");
 const router = express.Router();
 
 router.post("/", async (req, res, next) => {
-  const { body } = req;
-  const response = await knex("activity").insert(body, "id");
+  const { book_id, description, type, studants } = req.body;
+  const activities = [];
+  for (let i = 0; i < studants.length; i++) {
+    activities.push({
+      book_id,
+      description,
+      studant_id: studants[i],
+      type,
+    });
+  }
+  const response = await knex("activity").insert(activities, "id");
   res.send(response);
 });
 
@@ -37,7 +46,7 @@ router.post("/upload", upload.array("photo", 12), async (req, res) => {
     });
   }
 
-  const activity = await knex("activity");
+  const activity = await knex("activity").where({ studant_id });
   res.send({ uploded: sent, activity });
 });
 

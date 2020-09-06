@@ -21,13 +21,13 @@ const uploadHelper = async (filename, path) => {
     Body: fileContent,
     ACL: "public-read",
   };
-//   await s3.upload(params, (err, data) => {
-//     if (err) {
-//       console.log(params);
-//       throw err;
-//     }
-//     console.log(`File uploaded successfully. ${data.Location}`);
-//   });
+  await s3.upload(params, (err, data) => {
+    if (err) {
+      console.log(params);
+      throw err;
+    }
+    console.log(`File uploaded successfully. ${data.Location}`);
+  });
   return `https://${BUCKET_NAME}.s3.${REGION}.amazonaws.com/${filename}`
 };
 
