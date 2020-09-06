@@ -10,9 +10,7 @@ const express = require("express");
 const path = require("path");
 const cookieParser = require("cookie-parser");
 const logger = require("morgan");
-const { buildRoutes } = require("./routes");
-
-
+const { buildRoutes } = require("./api/routes");
 
 /**
  * Creating & initializing app

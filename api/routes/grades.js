@@ -1,11 +1,9 @@
 const express = require("express");
+const grades = require("../data/grades.json");
 const router = express.Router();
 
-/* GET home page. */
 router.get("/", (req, res, next) => {
-  res.send({
-    APIs: ["/book", "/book/:bookId", "/grade", "/grade/:gradeId"],
-  });
+  res.send(grades);
 });
 
 module.exports = router;

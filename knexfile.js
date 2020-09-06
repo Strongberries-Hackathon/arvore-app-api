@@ -6,6 +6,12 @@ module.exports = {
     connection: {
       filename: "./dev.sqlite3",
     },
+    useNullAsDefault: true,
+    debug: true,
+    migrations: {
+      tableName: "knex_migrations",
+      directory: "./db/migrations",
+    },
   },
 
   production: {
@@ -17,6 +23,7 @@ module.exports = {
     },
     migrations: {
       tableName: "knex_migrations",
+      directory: "./db/migrations",
     },
   },
 };

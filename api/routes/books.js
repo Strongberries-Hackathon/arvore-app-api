@@ -1,5 +1,5 @@
 const express = require("express");
-const books = require("../book/books.json");
+const books = require("../data/books.json");
 const router = express.Router();
 
 router.get("/:bookId", (req, res, next) => {

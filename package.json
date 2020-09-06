@@ -3,22 +3,25 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "export NODE_ENV=development && nodemon server.js",
-    "db": "export NODE_ENV=development && knex migrate:latest",
+    "start": "nodemon server.js",
+    "db": "knex migrate:latest",
     "db:prod": "export NODE_ENV=production && knex migrate:latest"
   },
   "dependencies": {
+    "aws-sdk": "^2.747.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
+    "install": "^0.13.0",
     "jade": "~1.11.0",
+    "knex": "^0.21.5",
     "morgan": "~1.9.1",
-    "pg": "^8.3.3",
-    "knex": "^0.21.5"
-  },
-  "devDependencies": {
+    "multer": "^1.4.2",
     "nodemon": "^2.0.4",
-    "sqlite3": "^5.0.0"
-  }
+    "pg": "^8.3.3",
+    "sqlite3": "^5.0.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {}
 }
