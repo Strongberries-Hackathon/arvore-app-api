@@ -16,6 +16,11 @@ router.get("/", async (req, res, next) => {
   res.send(await knex("activity"));
 });
 
+router.get("/:activityId", async (req, res, next) => {
+  const { activityId } = req.params;
+  res.send(await knex("activity").where({ studant_id: activityId }));
+});
+
 router.post("/upload", upload.array("photo", 12), async (req, res) => {
   let sent = [];
   const { studant_id } = req.body;
