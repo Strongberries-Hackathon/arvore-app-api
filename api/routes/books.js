@@ -13,7 +13,9 @@ router.get("/", (req, res, next) => {
 
 const _fetchBook = (bookId) => {
   try {
-    return books[bookId];
+    return books.map((book) => {
+      if (book.id === bookId) return book;
+    })
   } catch (err) {
     return "Book not found";
   }
