@@ -1,22 +1,23 @@
 [
   {
     "id": "book1",
-    "title": "GINGER THE GIRAFFE ",
-    "resume": "Read this warm tale of camaraderie and affection set in the wild and beautiful Savannah in our free illustrated kid's book. Ginger the giraffe uses her long neck to save the other animals from the blazing forest fire. Follow them in their jungle paths as they all meet with yet another adventure .",
-    "author": "T. Albert",
-    "cover": "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/79d5b1c0b8882ed8cd386212c9538fae",
+    "title": "Malala, a menina que queria ir para a escola",
+    "resume": "Malala Yousafzai quase perdeu a vida por querer ir para a escola. Ela nasceu no vale do Swat, no Paquistão, uma região de extraordinária beleza, cobiçada no passado por conquistadores como Gengis Khan e Alexandre, o Grande, e protegida pelos bravos guerreiros pashtuns – os povos das montanhas. Foi habitada por reis e rainhas, príncipes e princesas, como nos contos de fadas. Malala cresceu entre os corredores da escola de seu pai, Ziauddin Yousafzai, e era uma das primeiras alunas da classe.",
+    "author": "Adriana Carranca",
+    "cover": "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/f9b59298141786e3d2fa5283326da09c",
     "pages": [
-      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/79d5b1c0b8882ed8cd386212c9538fae",
-      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/c28462a542d36172d376f8000be3aff1",
-      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/8a381ced0a1e67b0f5b8231cd44b7289",
-      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/faeb3b73d90c4381fa5750d43f8979dd"
+      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/f9b59298141786e3d2fa5283326da09c",
+      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/13b33f2660e76287571d2c69cae613c3",
+      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/b57f11fadf9ce2bc5e88cbf781c55d6b",
+      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/c569f5dbbaadfb8899ce964d10ae4cff",
+      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/a32cc8b42f8974db254641d34e5e27cd"
     ]
   },
   {
     "id": "book2",
-    "title": "book2",
-    "resume": "Read this warm tale of camaraderie and affection set in the wild and beautiful Savannah in our free illustrated kid's book. Ginger the giraffe uses her long neck to save the other animals from the blazing forest fire. Follow them in their jungle paths as they all meet with yet another adventure .",
-    "author": "T. Albert",
+    "title": "Chapeuzinho Amarelo",
+    "resume": "Chapeuzinho Amarelo conta a história de uma garotinha amarela de medo. Tinha medo de tudo, até do medo de ter medo. Era tão medrosa que já não se divertia, não brincava, não dormia, não comia. Seu maior receio era encontrar o Lobo, que era capaz de comer “duas avós, um caçador, rei, princesa, sete panelas de arroz e um chapéu de sobremesa”. Ao enfrentar o Lobo e passar a curtir a vida como toda criança, Chapeuzinho nos ensina uma valiosa lição sobre coragem e superação do medo. Já em sua 40º edição, este clássico de nossa literatura infantil vem encantando gerações e gerações de leitores.",
+    "author": "Chico Buarque",
     "cover": "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/79d5b1c0b8882ed8cd386212c9538fae",
     "pages": [
       "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/79d5b1c0b8882ed8cd386212c9538fae",
@@ -27,28 +28,16 @@
   },
   {
     "id": "book3",
-    "title": "book3",
-    "resume": "Read this warm tale of camaraderie and affection set in the wild and beautiful Savannah in our free illustrated kid's book. Ginger the giraffe uses her long neck to save the other animals from the blazing forest fire. Follow them in their jungle paths as they all meet with yet another adventure .",
-    "author": "T. Albert",
-    "cover": "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/79d5b1c0b8882ed8cd386212c9538fae",
+    "title": "Somos Todos Extraordinários: Escrito e ilustrado por R.J. Palácio",
+    "resume": "A mensagem inspiradora do romance Extraordinário agora dirigida ao público infantil, em um livro ilustrado simplesmente encantador.    Extraordinário é um romance apaixonante e inspirador, que já tocou a vida de quase meio milhão de leitores só no Brasil. Publicada pela primeira vez em 2013, a história que acompanha o carismático Auggie Pullman, um menino de dez anos com uma grave deformidade facial que começa a frequentar a escola pela primeira vez, ganha agora uma edição dedicada às crianças, cuidadosamente pensada e elaborada com a intenção de levar a elas a forte mensagem de inclusão e gentileza que a autora R J Palácio imprimiu à sua obra.",
+    "author": "R. J. Palacio",
+    "cover": "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/6f59f5687af9fac4bdd1a029db481066",
     "pages": [
-      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/79d5b1c0b8882ed8cd386212c9538fae",
-      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/c28462a542d36172d376f8000be3aff1",
-      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/8a381ced0a1e67b0f5b8231cd44b7289",
-      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/faeb3b73d90c4381fa5750d43f8979dd"
-    ]
-  },
-  {
-    "id": "book4",
-    "title": "book4",
-    "resume": "Read this warm tale of camaraderie and affection set in the wild and beautiful Savannah in our free illustrated kid's book. Ginger the giraffe uses her long neck to save the other animals from the blazing forest fire. Follow them in their jungle paths as they all meet with yet another adventure .",
-    "author": "T. Albert",
-    "cover": "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/79d5b1c0b8882ed8cd386212c9538fae",
-    "pages": [
-      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/79d5b1c0b8882ed8cd386212c9538fae",
-      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/c28462a542d36172d376f8000be3aff1",
-      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/8a381ced0a1e67b0f5b8231cd44b7289",
-      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/faeb3b73d90c4381fa5750d43f8979dd"
+      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/6f59f5687af9fac4bdd1a029db481066",
+      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/e7be31aad428eac95fdf2430959da3cb",
+      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/ec382aa620238105e84139b3ef2db298",
+      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/32fb47c8d36bbc7b4ef10b1a811506bf",
+      "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/9e2a0bbfe80de4429209785b9ae45844"
     ]
   }
 ]
