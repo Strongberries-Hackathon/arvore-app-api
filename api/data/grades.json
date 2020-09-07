@@ -1,4 +1,4 @@
 [
-  { "id": "primeiroAno", "studants": ["Maria", "Julia", "Pedro"] },
-  { "id": "segundoAno", "studants": ["Carlos", "Juliano", "Camila"] }
+  { "id": "primeiroAno", "studants": ["1", "2", "3"] },
+  { "id": "segundoAno", "studants": ["1", "2", "3"] }
 ]
