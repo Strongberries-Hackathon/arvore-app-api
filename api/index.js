@@ -3,8 +3,11 @@ const router = express.Router();
 
 /* GET home page. */
 router.get("/", (req, res, next) => {
-  res.send({
-    APIs: ["/book", "/book/:bookId", "/grade", "/grade/:gradeId"],
+  res.json({
+    APIs:{/book: {/book/:'bookId'},
+          /grade: {/grade/:'gradeId'},
+          /activity: {/activity/:'activityId',
+                      /activity/upload/:'photo/studant_id'}}
   });
 });
 
