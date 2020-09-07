@@ -4,18 +4,15 @@ const router = express.Router();
 
 router.get("/:bookId", (req, res, next) => {
   const { bookId } = req.params;
-  res.send(_fetchBook(bookId));
+  let response;
+  books.forEach((book) => {
+    if (book.id === bookId) response=book;;
+  })
+  res.send(response);
 });
 
 router.get("/", (req, res, next) => {
   res.send(books);
 });
-
-const _fetchBook = (bookId) => {
-  return books.map((book) => {
-    if (book.id === bookId) return book;
-    else return "Book not found";
-  });
-};
 
 module.exports = router;

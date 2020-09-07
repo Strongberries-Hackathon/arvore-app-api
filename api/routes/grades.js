@@ -8,14 +8,12 @@ router.get("/", (req, res, next) => {
 
 router.get("/:gradeId", (req, res, next) => {
   const { gradeId } = req.params;
-  res.send(_fetchGrade(gradeId));
+  let response;
+  grades.forEach((grade) => {
+    if (grade.id === gradeId) response=grade;;
+  })
+  res.send(response);
 });
-
-const _fetchGrade = (gradeId) => {
-  return grades.map((grade) => {
-    if (grade.id === gradeId) return grade;
-    else return "Grade not found";
-  });
-};
+;
 
 module.exports = router;
