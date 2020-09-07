@@ -1,8 +1,8 @@
 [
   {
     "id": "book1",
-    "title": "Malala, a menina que queria ir para a escola",
-    "resume": "Malala Yousafzai quase perdeu a vida por querer ir para a escola. Ela nasceu no vale do Swat, no Paquistão, uma região de extraordinária beleza, cobiçada no passado por conquistadores como Gengis Khan e Alexandre, o Grande, e protegida pelos bravos guerreiros pashtuns – os povos das montanhas. Foi habitada por reis e rainhas, príncipes e princesas, como nos contos de fadas. Malala cresceu entre os corredores da escola de seu pai, Ziauddin Yousafzai, e era uma das primeiras alunas da classe.",
+    "title": "Malala",
+    "resume": "Malala, a menina que queria ir para a escola",
     "author": "Adriana Carranca",
     "cover": "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/f9b59298141786e3d2fa5283326da09c",
     "pages": [
@@ -28,7 +28,7 @@
   },
   {
     "id": "book3",
-    "title": "Somos Todos Extraordinários: Escrito e ilustrado por R.J. Palácio",
+    "title": "Somos Todos Extraordinários",
     "resume": "A mensagem inspiradora do romance Extraordinário agora dirigida ao público infantil, em um livro ilustrado simplesmente encantador.    Extraordinário é um romance apaixonante e inspirador, que já tocou a vida de quase meio milhão de leitores só no Brasil. Publicada pela primeira vez em 2013, a história que acompanha o carismático Auggie Pullman, um menino de dez anos com uma grave deformidade facial que começa a frequentar a escola pela primeira vez, ganha agora uma edição dedicada às crianças, cuidadosamente pensada e elaborada com a intenção de levar a elas a forte mensagem de inclusão e gentileza que a autora R J Palácio imprimiu à sua obra.",
     "author": "R. J. Palacio",
     "cover": "https://arvore-app-heroku-upload.s3.us-west-2.amazonaws.com/6f59f5687af9fac4bdd1a029db481066",
