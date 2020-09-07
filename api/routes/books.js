@@ -12,13 +12,10 @@ router.get("/", (req, res, next) => {
 });
 
 const _fetchBook = (bookId) => {
-  try {
-    return books.map((book) => {
-      if (book.id === bookId) return book;
-    })
-  } catch (err) {
-    return "Book not found";
-  }
+  return books.map((book) => {
+    if (book.id === bookId) return book;
+    else return "Book not found";
+  });
 };
 
 module.exports = router;
